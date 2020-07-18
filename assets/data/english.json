@@ -1,0 +1,6 @@
+{ "Language":[{"text":"English","value":"english"},{"text":"हिंदी","value":"hindi"},{"text":"اردو","value":"urdu"},
+    {"text":"தமிழ்","value":"tamil "},{"text":"বাঙালি","value":"bengali"},{"text":"मराठी","value":"marathi"},
+    {"text":"తెలుగు","value":"telugu"},{"text":"ગુજરાતી","value":"gujarati"},{"text":"ಕನ್ನಡ","value":"kannada"},{"text":"മലയാളം","value":"malayalam"},{"text":"ਪੰਜਾਬੀ","value":"punjabi"},{"text":"中文","value":"chinese"},
+    {"text":"русский","value":"russian"},{"text":"日本人","value":"Japanese"},{"text":"française","value":"French"},{"text":"Española","value":"Spanish"},{"text":"Portuguesa","value":"Portuguese"},{"text":"Deutsche","value":"german"},{"text":"عربى","value":"Arabic"}],
+"menus":[{"text":"Home","value":"home"},{"text":"Our Work","value":"services"},{"text":"About Us","value":"about"},{"text":"Contact","value":"contact"},{"text":"Blog","value":"blog"},{"text":"Login","value":"login"}]
+}
