@@ -1,0 +1,27 @@
+
+<div class="container-fluid">
+	<ng-template #popContent>
+		<ul  *ngIf="alerts">
+			<li *ngFor="let alert of filterItemsOfType()" class="d1"><a>{{alert.name}}</a></li>
+			</ul>
+	</ng-template>
+	<div class="row text-center">
+		<button class="formText btn btn-outline-secondary"><span>AER = </span></button>
+	<button type="button" class="btn btn-outline-secondary formulaText" placement="bottom" (click)="OpenDropDown(name.alphabet)" *ngFor="let name of names">
+	   <b>{{name.alphabet}}<sup>{{name.occurence}}</sup></b>
+	</button>
+</div>
+<div class="row text-center" *ngIf="alerts" style="background-color: aquamarine; height: 300px;">
+	<div class="card col-lg-3 col-md-4 col-sm-6" *ngFor="let alert of alerts">
+		<figure class="front">
+		  <img class="backimg img img-responsive" src="http://www.jboeijenga.nl/img/front.jpg" alt="front">
+		  <div class="caption">
+			<img src="../assets/img/user.png" alt="Profile">
+			<h2>{{alert.name}}</h2>
+			<h5>{{alert.name}}</h5>
+			<p><span><i class="fa fa-facebook"></i></span><span><i class="fa fa-twitter"></i></span><span><i class="fa fa-linkedin"></i></span></p>
+		  </div>			
+		</figure>
+	  </div>
+</div>
+</div>
